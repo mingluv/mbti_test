@@ -255,9 +255,7 @@ if (Object.keys(result).includes(shareParams) === true){
  document.querySelector('#result').style.display = "block";
  var mbti = shareParams;
  document.querySelector('#explain').innerHTML = result[mbti]['explain'];
- document.querySelector('#explain2').innerHTML = result[mbti]['explain2'];
  document.querySelector("#result_img").setAttribute("src", 'img/' + result[mbti]['result_img']);
- document.querySelector("#cardlike").setAttribute("src", 'img/' + result[mbti]['cardlike']);
 }
 
 // 카카오 SDK 초기화
@@ -266,10 +264,7 @@ Kakao.isInitialized();
 
 // 카톡 공유 실행 함수
 var kakaoShare = function(){
- dataLayer.push({
-   'event': 'kakao_share'
- });
- var title = document.querySelector('.r-title').textContent;
+ var title = document.querySelector('#mymbti').textContent;
  var desc = document.querySelector('#explain').textContent;
  var imgUrl = document.querySelector('#result_img').src;
  var mbti = new URL(location.href).searchParams.get('result');
