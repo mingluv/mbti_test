@@ -185,6 +185,7 @@ var retry = function(){
   document.querySelector('#test').style.display = "block";
   i = 1;
   EI.value=SN.value=TF.value=JP.value= 0;
+  history.replaceState({}, null, location.pathname);
   next();
 }
 
@@ -232,6 +233,7 @@ var next = function(){
     document.querySelector('#mymbti').innerHTML = result[mbti]['mbti'];
     document.querySelector('#explain').innerHTML = result[mbti]['explain'];
     document.querySelector('#result_img').setAttribute("src", 'img/' + result[mbti]['img']);
+    history.replaceState({result: result}, '', '?result='+ mbti); // MBTI 결과 쿼리 파라미터 삽입
   }
   else{
     document.querySelector('#number').innerHTML = i+'/12';
