@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+
+
+
+.myButton {
+	box-shadow: 0px 0px 9px 2px #ffc107;
+	background-color:#ffc107;
+	border-radius:15px;
+	border:3px solid #ff9900;
+	display:inline-block;
+	cursor:pointer;
+	color:#242424;
+	font-family:Arial;
+	font-size:20px;
+	padding:17px 39px;
+	text-decoration:none;
+	text-shadow:0px 1px 15px #ffc107;
+}
+.myButton:hover {
+	background-color:#faaa28;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.text1 {
+    font-weight: bold;
+    font-size: 1.4em;
+    text-shadow: 1px 1px 0 #ffffff;
+    color: #143fa3;
+}
+
+
+
+#wrap{
+  font-family: 'Jua', sans-serif;
+  max-width: 500px;
+  margin: auto;
+  background-image: url(./img/eg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+#main{
+  text-align:center;
+}
+
+#number{
+  text-align: end;
+}
+
+#test{
+  text-align: center;
+  display:none;
+}
+
+#result_img{
+  margin: auto 0;
+  width:50%;
+}
+
+#result{
+  text-align : center;
+  display : none;
+}
+
+#made{
+  color : #A4A4A4;
+  text-align: center;
+  font-size : small;
+  margin-top: 30px;
+}
