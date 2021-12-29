@@ -254,6 +254,7 @@ if (Object.keys(result).includes(shareParams) === true){
  document.querySelector('#main').style.display = "none";
  document.querySelector('#result').style.display = "block";
  var mbti = shareParams;
+ document.querySelector('#mymbti').innerHTML = result[mbti]['mbti'];
  document.querySelector('#explain').innerHTML = result[mbti]['explain'];
  document.querySelector("#result_img").setAttribute("src", 'img/' + result[mbti]['result_img']);
 }
