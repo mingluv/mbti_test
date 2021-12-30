@@ -90,8 +90,11 @@ var testNum = {
 var result = {
   "INTJ": {
     "mbti": "INTJ",
-    "explain": "용의주도한 전략가",
-    "img": "INTJ.jpg"
+    "type": "메딕",
+    "explain": "어떤 상황에서든 침착한 매딕으로서 항상 팀원 주위에서 도움의 손길을 내밀어 줍니다. 신중히 생각하고 다음 상황에 대한 혁신적인 통찰을 보여줍니다. <br><br> 상상력이 풍부하면서도 결단력이 있고 책임감이 강하여 팀원들에게 긍정적인 애너지를 줍니다. 자신의 능력을 발휘하거나 일하는 모습을 보여주는 것을 좋아합니다. ",
+    "explain2": "에너지가 넘치는 수다쟁이는(ENFP)는 침착한 메딕에게 활력을 넣어주고, 서로 의지하며 힘이 되어주는 사이입니다. <br><br> 반대로 단호해야 하는 메인오더형(ESTJ)와 서로 바라보는 방향이 달라 서로 오해가 생길수도 있습니다.",
+    "img": "INTJ.jpg",
+    "sub_img" : "INTJ.jpg"
   },
   "INTP": {
     "mbti": "INTP",
@@ -231,8 +234,11 @@ var next = function(){
     }
     console.log(mbti);
     document.querySelector('#mymbti').innerHTML = result[mbti]['mbti'];
+    document.querySelector('#type').innerHTML = result[mbti]['type'];
     document.querySelector('#explain').innerHTML = result[mbti]['explain'];
+    document.querySelector('#explain2').innerHTML = result[mbti]['explain2'];
     document.querySelector('#result_img').setAttribute("src", 'img/' + result[mbti]['img']);
+    document.querySelector('#sub_img').setAttribute("src", 'img/' + result[mbti]['sub_img']);
     history.replaceState({result: result}, '', '?result='+ mbti); // MBTI 결과 쿼리 파라미터 삽입
   }
   else{
