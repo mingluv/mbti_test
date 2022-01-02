@@ -1,28 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gothic+A1:wght@600&family=Noto+Sans+KR:wght@700;900&display=swap');
 
-
-body{
-  background-image: url(./img/eg.jpg);
-  background-size: cover;
-
+.btn.btn-warning{
+  padding: 0.2rem 0.2rem;
 }
 
-.back{
-  background-color: white;
-}
 .myButton {
-	box-shadow: 0px 0px 9px 2px #fff6af;
-	background-color:#ffe66b;
-	border-radius:27px;
-	border:3px solid #ff9900;
-	display:inline-block;
-	cursor:pointer;
-	color:#242424;
-	font-family:Arial;
-	font-size:20px;
-	padding:17px 39px;
-	text-decoration:none;
-	text-shadow:0px 1px 15px #ffee66;
+    background-color: #ffbf00;
+    border-radius: 50px;
+    border: 3px solid #f5a123;
+    display: inline-block;
+    cursor: pointer;
+    color: #252424;
+    font-size: 20px;
+    padding: 17px 10px;
+    text-decoration: none;
+    text-shadow: 0px 1px 10px #ffc107;
 }
 .myButton:hover {
 	background-color:#faaa28;
@@ -32,13 +24,23 @@ body{
 	top:1px;
 }
 
+.text1 {
+    font-weight: bold;
+    font-size: 1.4em;
+    text-shadow: 1px 1px 0 #090000;
+    color: #ffbf00;
+}
 
 
 
 #wrap{
-  font-family: 'Jua', sans-serif;
-  max-width: 500px;
-  margin: 30px auto;
+  font-family: 'Noto Sans KR', sans-serif;
+  max-width: 700px;
+  margin: auto;
+  background-image: url(./img/pubg-bg.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
 }
 #main{
   text-align:center;
@@ -55,17 +57,76 @@ body{
 
 #result_img{
   margin: auto 0;
-  width:50%;
+  width:45%;
+  border: 0.15rem solid #ffc107;
+  margin-top: 0.3em;
+}
+
+#sub_img{
+  width:70%;
 }
 
 #result{
   text-align : center;
   display : none;
+  font-size: 1rem;
 }
 
 #made{
-  color : #A4A4A4;
+  color : #ffffff;
   text-align: center;
   font-size : small;
   margin-top: 30px;
 }
+
+#description{
+	 border-radius: 0.5em;
+	 background-color: #ffffff;
+	 font-size: 1rem;
+	 padding: 1.1em;
+	 margin-bottom: 1em;
+ }
+
+ #A{
+  font-size: 0.9rem;
+ }
+ #B{
+  font-size: 0.9em;
+ }
+ #explain{
+   padding: 5px;
+   border-radius: 0.5em;
+   background-color: #ffffffc7;
+   font-size: 0.9rem;
+ }
+ #explain2{
+   padding: 5px;
+   border-radius: 0.5em;
+   background-color: #ffffffc7;
+   font-size: 0.9rem;
+ }
+
+#title {
+    color: white;
+    background-color: #3a7a3a;
+    padding: 0.3em;
+    border-radius: 1em;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+    margin-left: 4em;
+    margin-right: 4em;
+    min-width: 100px;
+}
+
+#mymbti{
+      margin-top: 0.5em;
+      background-color: #ffffff;
+      margin-left: 5em;
+      margin-right: 5em;
+      border-radius: 1em;
+      font-size: 1em;
+      padding: 0.3em;
+}
+
+
+@media (min-width:300px) and (max-width:599px)
