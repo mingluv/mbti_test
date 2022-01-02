@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gothic+A1:wght@600&family=Noto+Sans+KR:wght@700;900&display=swap');
 
 .btn.btn-warning{
-  padding: 0.2rem 0.2rem;
+  padding: 0.4rem 0.4rem;
 }
 
 .myButton {
@@ -127,6 +127,3 @@
       font-size: 1em;
       padding: 0.3em;
 }
-
-
-@media (min-width:300px) and (max-width:599px)
