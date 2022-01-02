@@ -52,14 +52,14 @@ var testNum = {
   },
   "8": {
     "title": "문제 8번",
-    "description": "보급상자가 하늘에서 떨어졌다!! 팀원이 에땁을 보고 좋아한다! 내 반응은??",
+    "description": "보급상자가 하늘에서 떨어졌다!!<br>팀원이 AWM(에땁)을 보고 좋아한다! 내 반응은??",
     "type": "TF",
-    "A": "대박 나 배율있어, 에땁 나 줘!!",
+    "A": "대박 나 배율있어, AWM(에땁) 나 줘!!",
     "B": "우와! 너가 멋있게 다 잡아!"
   },
   "9": {
     "title": "문제 9번",
-    "description": "자기장 밖에서 팀원이 기절했다! 당신의 판단은?!",
+    "description": "자기장 밖에서 팀원이 기절했다!<br>당신의 판단은?!",
     "type": "TF",
     "A": "이번 자기장 아프고, 너무 멀어서 못살려!",
     "B": "기다려! 죽으면 안돼~내가간다!"
@@ -73,9 +73,9 @@ var testNum = {
   },
   "11": {
     "title": "문제 11번",
-    "description": "이번 새로운 시즌이 시작되었다! 나의 게임 유형은?",
+    "description": "이번 새로운 시즌이 시작되었다!<br>나의 게임 유형은?",
     "type": "JP",
-    "A": "이번엔 꼭 정복자 간다! 고정팟 구해요~",
+    "A": "이번엔 꼭 정복자 간다! 고정멤버 구해요~",
     "B": "티어는 중요하지 않아! 즐겁게 게임할래~"
   },
   "12": {
@@ -352,6 +352,18 @@ buttons: [
 document.querySelector('#share_btn').addEventListener('click', kakaoShare);
 
 document.querySelector('#ingame_btn').addEventListener('click', function(){
-     location.href="https://game.naver.com/lounge/PUBG_MOBILE/home";
+     location.href="https://pubgmobile.kr/";
      return false;
    })
+document.querySelector('#copy_btn').addEventListener('click', function(){
+  var url = "";
+  var textarea = document.createElement("textarea");
+  document.body.appendChild(textarea);
+  url = window.document.location.href;
+  textarea.value = url;
+  textarea.select();
+  document.execCommand("copy");
+  document.body.removeChild(textarea);
+  alert("  "+ url + "  \n 복사 완료");
+        return false;
+      })

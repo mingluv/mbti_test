@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gothic+A1:wght@600&family=Noto+Sans+KR:wght@700;900&display=swap');
 
 .btn.btn-warning{
-  padding: 0.4rem 0.4rem;
+  padding: 0.6rem 0.6rem;
 }
 
 .myButton {
@@ -38,6 +38,7 @@
   max-width: 700px;
   margin: auto;
   background-image: url(./img/pubg-bg.png);
+
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -82,7 +83,7 @@
 #description{
 	 border-radius: 0.5em;
 	 background-color: #ffffff;
-	 font-size: 1rem;
+	 font-size: 1.1rem;
 	 padding: 1.1em;
 	 margin-bottom: 1em;
  }
@@ -97,18 +98,18 @@
    padding: 5px;
    border-radius: 0.5em;
    background-color: #ffffffc7;
-   font-size: 0.9rem;
+   font-size: 1rem;
  }
  #explain2{
    padding: 5px;
    border-radius: 0.5em;
    background-color: #ffffffc7;
-   font-size: 0.9rem;
+   font-size: 1rem;
  }
 
 #title {
     color: white;
-    background-color: #3a7a3a;
+    background-color: #292e35;
     padding: 0.3em;
     border-radius: 1em;
     margin-top: 0.6em;
@@ -120,10 +121,10 @@
 
 #mymbti{
       margin-top: 0.5em;
-      background-color: #ffffff;
+      color: #ffffff;
       margin-left: 5em;
       margin-right: 5em;
       border-radius: 1em;
       font-size: 1em;
-      padding: 0.3em;
+
 }
