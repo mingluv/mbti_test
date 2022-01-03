@@ -130,7 +130,7 @@ var result = {
   "INFP": {
     "mbti": "INFP<br>예측불가형",
     "explain": "침착하고 내성적이며 수줍음이 많은 사람같지만 갑자기 몸안의 불이 활활 타올라 어떤 행동을 할지 예상할 수 없습니다. 내면과 외면의 차이가 크고, 주변의 의식을 많이 받고 마음이 약해 쉽게 상처를 받습니다. 한번 싫어지면 끝까지 싫어하며 호불호가 정확합니다.",
-    "explain2": "의외로 '치킨매니아' 와의 궁합은 이해하고 맞춰가며 감성적 소통이 잘되는, 배려해주는 친구입니다.<br><br>하지만 자신의 왜 이런 행동에 공감해주기 원하는 나와 달리 '존버형'은  구체적인 사실에 대해 언급하여 서로 오해가 생길 수 있으니 주의해 주세요.",
+    "explain2": "의외로 '치킨매니아' 와의 궁합은 이해하고 맞춰가며 감성적 소통이 잘되는, 배려해주는 친구입니다.<br><br>하.지.만 '존버형'은 당신이 고민이 있을 때, 감정적으로 공감을 해주기 보다, 구체적인 사실에 대한 조언으로 의도치 않은 마음의 상처를 받을 수 있으니 심장 단단히 잡으세요.",
     "img": "INFP.jpg",
     "sub_img" : "ming.png"
 
@@ -185,7 +185,7 @@ var result = {
   },
   "ISTP": {
     "mbti": "ISTP<br>걸어다니는 3랩 가방",
-    "explain": "팀원들이의 든든한 만능 재주꾼으로, 타인을 잘 도우며 필요한 물건이 있다면 아낌없이 배푸는 호의를 배풉니다. 호기심도 풍부하고, 메인 총 뿐만 아니라 석궁, DBS  등 다른 총기에도 관심이 많아 새로운 기술을 하나하나 터득해 나갑니다. 틀에 박핸 생활을 싫아허고 모험을 즐겨 새로운 맵도 금방 적응하며 고정관념 편견이 없는 편입니다.",
+    "explain": "팀원들에게 든든한 만능 재주꾼으로, 타인을 잘 도우며 필요한 물건이 있다면 아낌없이 배푸는 호의를 배풉니다. 호기심도 풍부하고, 메인 총 뿐만 아니라 석궁, DBS  등 다른 총기에도 관심이 많아 새로운 기술을 하나하나 터득해 나갑니다. 틀에 박핸 생활을 싫아허고 모험을 즐겨 새로운 맵도 금방 적응하며 고정관념 편견이 없는 편입니다.",
     "explain2": "당신의 장점을 봐주며, 끝까지 같이 목표를 향해 이끌어 가는 '매인오더형'은 든든한 조력자 입니다.<br><br>반면, 비슷하면서도 활동성이 다른 '보급불나방'은 서로 파밍하는 스타일이 달라, 배려를 하면서 플레이를 하면 좋을 것 같아요.",
     "img": "ISTP.jpg",
     "sub_img" : "ming.png"
@@ -327,22 +327,22 @@ content: {
  imageUrl:
    imgUrl,
  link: {
-   mobileWebUrl: 'http://battlegrounds-mbti.com?result='+mbti,
+   mobileWebUrl: 'https://battlegrounds-mbti.com?result='+mbti,
  },
 },
 buttons: [
  {
    title: '결과 확인',
    link: {
-     mobileWebUrl: 'http://battlegrounds-mbti.com?result='+mbti,
-     webUrl: 'http://battlegrounds-mbti.com?result='+mbti,
+     mobileWebUrl: 'https://battlegrounds-mbti.com?result='+mbti,
+     webUrl: 'https://battlegrounds-mbti.com?result='+mbti,
    },
  },
  {
    title: '테스트하기',
    link: {
-     mobileWebUrl: 'http://battlegrounds-mbti.com',
-     webUrl: 'http://battlegrounds-mbti.com',
+     mobileWebUrl: 'https://battlegrounds-mbti.com',
+     webUrl: 'https://battlegrounds-mbti.com',
    },
  },
 ]
